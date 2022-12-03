@@ -1,12 +1,66 @@
-<!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpack custom config</title>
-</head>
-<body>
-    <h1>Webpack custom config</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rain Alert</title>
+  </head>
+  <body>
+    <section id="welcome">
+      <a href="#prevision">
+        <div class="logo">
+          <section class="wrap">
+            <div class="text-logo">
+              <img src="./assets/images/Rainlogo.png" alt="" class="logo" />
+            </div>
+            <div class="text-logo">
+              <h1 class="title">Rain Alert</h1>
+              <p class="text-w-p">Préparez-vous pour la pluie</p>
+            </div>
+          </section>
+        </div>
+      </a>
+    </section>
+    <section id="prevision" class="out">
+      <header>
+        <p class="head-img"><img src="./assets/images/Rainlogo.png" alt="" /></p>
+        <p class="head-txt">RainAlert</p>
+      </header>
+      <main>
+        <section class="search">
+          <form action="" method="">
+            <input type="search" placeholder="Verviers" />
+            <button>Search</button>
+          </form>
+        </section>
+        <div class="t">
+          <p class="t-img">
+            <img src="./assets/images/precipitation.png" alt="" />
+          </p>
+          <p class="temp">20°C</p>
+          <p class="cloud">Il ne pleut pas pour le moment</p>
+        </div>
+      </main>
+      <footer>
+        <img src="./assets/images/rain.png" alt="" />
+        <a href="#prevision">Prévisions</a>
+        <img src="./assets/images/place.png" alt="" />
+        <a href="#carte">Carte</a>
+      </footer>
+    </section>
+    <section id="carte" class="out">
+      <header>
+        <p class="head-img"><img src="./assets/images/Rainlogo.png" alt="" /></p>
+        <p class="head-txt">RainAlert</p>
+      </header>
+      <main></main>
+      <footer>
+        <img src="./assets/images/" alt="" />
+        <a href="#prevision">Prévisions</a>
+        <img src="./assets/images/place.png" alt="" />
+        <a href="#carte">Carte</a>
+      </footer>
+    </section>
+  </body>
+  <script src="./index.js"></script>
 </html>
